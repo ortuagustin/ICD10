@@ -13,7 +13,6 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 
 ```bash
   git clone https://github.com/ortuagustin/ICD10.git
-  cd ICD10
 ```
 
 2. Levantar el stack:
