@@ -16,3 +16,10 @@ services:
       - 5601:5601
     links:
       - elasticsearch
+  logstash:
+    image: docker.elastic.co/logstash/logstash:6.6.0
+    command: bash -c "bin/logstash-plugin install logstash-input-file && logstash -f /logstash/logstash_cied10.conf"
+    links:
+      - elasticsearch
+    volumes:
+      - ./:/logstash
