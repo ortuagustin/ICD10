@@ -19,6 +19,9 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 
 ```bash
   cd ICD10
+  # para ver los logs en tiempo real en la consola
+  docker-compose up
+  # levanta el stack en segundo plano
   docker-compose up -d
 ```
 
