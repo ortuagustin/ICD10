@@ -12,6 +12,16 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
   sudo usermod -a -G docker $USER
 ```
 
+4.  Asegurarse que el servicio *docker* está corriendo:
+
+```bash
+  # con systemctl
+  
+  sudo systemctl start docker
+  # ó, con service
+  sudo service docker start
+```
+
 ## Instalación
 
 1. Clonar el repositorio
