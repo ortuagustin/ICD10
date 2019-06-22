@@ -6,6 +6,11 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 
 1. [Docker](https://www.docker.com/)
 2. [Docker-Compose](https://docs.docker.com/compose/)
+3. Para no tener que usar `sudo` en los comandos de *docker*:
+
+```bash
+  sudo usermod -a -G docker $USER
+```
 
 ## Instalación
 
