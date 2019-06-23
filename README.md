@@ -17,8 +17,7 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 4.  Asegurarse que el servicio *docker* está corriendo:
 
 ```bash
-  # con systemctl
-  
+  # con systemctl  
   sudo systemctl start docker
   
   # ó, con service
