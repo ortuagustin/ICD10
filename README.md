@@ -1,6 +1,8 @@
 # Hospital Español - Estandar ICD-10
 
-Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10)
+Aplicación web que permite consultas siguiendo el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10). Para construirla, se utilizaron las siguientes tecnologias:
+ * Stack `ElasticSearch-Kibana-Logstah` (ELK) para almacenamiento y búsquedas.
+ * [VueJS](https://vuejs.org/) para desarrollar la aplicación web; es un proyecto aparte, en este [repositorio](https://github.com/ortuagustin/diagnosticos-ICD10)
 
 ## Requisitos
 
