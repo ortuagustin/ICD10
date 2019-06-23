@@ -2,12 +2,13 @@
 
 Aplicación web que permite consultas siguiendo el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10). Para construirla, se utilizaron las siguientes tecnologias:
  * Stack `ElasticSearch-Kibana-Logstah` (ELK) para almacenamiento y búsquedas.
- * [VueJS](https://vuejs.org/) para desarrollar la aplicación web; es un proyecto aparte, en este [repositorio](https://github.com/ortuagustin/diagnosticos-ICD10)
+ * [VueJS](https://vuejs.org/) para desarrollar la aplicación web; es un proyecto aparte, en este [repositorio](https://github.com/ortuagustin/diagnosticos-ICD10).
+ * [docker](https://www.docker.com/) y [docker-compose](https://docs.docker.com/compose/) para la infraestructura.
 
 ## Requisitos
 
-1. [Docker](https://www.docker.com/)
-2. [Docker-Compose](https://docs.docker.com/compose/)
+1. [docker](https://www.docker.com/)
+2. [docker-compose](https://docs.docker.com/compose/)
 3. Para no tener que usar `sudo` en los comandos de *docker*:
 
 ```bash
