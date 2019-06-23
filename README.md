@@ -29,13 +29,20 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 1. Clonar el repositorio.
 
 ```bash
-  git clone https://github.com/ortuagustin/ICD10.git
-  cd ICD10
+  git clone --recurse-submodules https://github.com/ortuagustin/ICD10.git
+```
+
+> Este repositorio usa `git submodules`; si hay que inicializar/actualizar el submodule en un repositorio ya existente, ejecutar:
+
+```bash
+  ## dentro del directorio ICD10
+  git submodule update --init --recursive
 ```
 
 2. Levantar el stack:
 
 ```bash
+  cd ICD10
   # para ver los logs en tiempo real en la consola
   docker-compose up
   # levanta el stack en segundo plano
