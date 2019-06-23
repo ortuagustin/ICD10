@@ -52,9 +52,11 @@ Aplicación web que permite consultas siguiendo el estandar [ICD-10](https://en.
 ```
 **Si se actualiza el proyecto (por ej, en un `git pull`, ejecutar `docker-composer up --build` para que vuelva a construir los contenedores y los cambios tengan impacto`)**
 
-1. La aplicación web de consulta de diagnosticos corre en [http://localhost:8080/](http://localhost:8080/)
-2. `ElasticSearch` queda levantado en [http://localhost:9200/](http://localhost:9200/)
-3. `Kibana` corre en [http://localhost:5601/](http://localhost:5601/)
+1. `ElasticSearch` queda levantado en [http://localhost:9200/](http://localhost:9200/)
+2. `Kibana` corre en [http://localhost:5601/](http://localhost:5601/)
+3. La aplicación web de consulta de diagnosticos corre en [http://localhost:8080/](http://localhost:8080/)
+
+<img src="https://github.com/ortuagustin/diagnosticos-ICD10/blob/master/app.png">
 
 ## Referencias
 
