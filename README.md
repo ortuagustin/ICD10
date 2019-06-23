@@ -20,6 +20,7 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
   # con systemctl
   
   sudo systemctl start docker
+  
   # ó, con service
   sudo service docker start
 ```
