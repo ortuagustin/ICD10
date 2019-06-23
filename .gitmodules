@@ -1,0 +1,3 @@
+[submodule "diagnosticos-ICD10"]
+	path = diagnosticos-ICD10
+	url = https://github.com/ortuagustin/diagnosticos-ICD10.git

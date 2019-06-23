@@ -2,7 +2,6 @@ version: '3.0'
 services:
   elasticsearch:
     build: .
-    container_name: elasticsearch
     ports:
       - 9200:9200
     environment:
@@ -14,6 +13,12 @@ services:
       - http.cors.allow-origin=*
       - http.cors.allow-methods=OPTIONS,HEAD,GET,POST,PUT,DELETE
       - http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length
+  webapp:
+    build: ./diagnosticos-ICD10
+    ports:
+      - 8080:80
+    links:
+      - elasticsearch
   kibana:
     image: docker.elastic.co/kibana/kibana:6.6.0
     ports:
