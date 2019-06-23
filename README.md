@@ -32,7 +32,7 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
   git clone --recurse-submodules https://github.com/ortuagustin/ICD10.git
 ```
 
-> Este repositorio usa `git submodules`; si hay que inicializar/actualizar el submodule en un repositorio ya existente, ejecutar:
+**Este repositorio usa `git submodules`; si hay que inicializar/actualizar el submodule en un repositorio ya existente, ejecutar:**
 
 ```bash
   ## dentro del directorio ICD10
@@ -48,7 +48,7 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
   # levanta el stack en segundo plano
   docker-compose up -d
 ```
-> Si se actualiza el proyecto (por ej, en un `git pull`, ejecutar `docker-composer up --build para que vuelva a construir los contenedores y los cambios tengan impacto`)
+**Si se actualiza el proyecto (por ej, en un `git pull`, ejecutar `docker-composer up --build` para que vuelva a construir los contenedores y los cambios tengan impacto`)**
 
 1. La aplicación web de consulta de diagnosticos corre en [http://localhost:8080/](http://localhost:8080/)
 2. `ElasticSearch` queda levantado en [http://localhost:9200/](http://localhost:9200/)
