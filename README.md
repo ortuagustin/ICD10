@@ -12,6 +12,8 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
   sudo usermod -a -G docker $USER
 ```
 
+> Es necesario deslogearse para que los cambios tomen efecto.
+
 4.  Asegurarse que el servicio *docker* está corriendo:
 
 ```bash
@@ -24,7 +26,7 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 
 ## Instalación
 
-1. Clonar el repositorio
+1. Clonar el repositorio.
 
 ```bash
   git clone https://github.com/ortuagustin/ICD10.git
