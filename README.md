@@ -30,12 +30,12 @@ Stack `ElasticSearch-Kibana-Logstah` (ELK) que permite consultas siguiendo el es
 
 ```bash
   git clone https://github.com/ortuagustin/ICD10.git
+  cd ICD10
 ```
 
 2. Levantar el stack:
 
 ```bash
-  cd ICD10
   # para ver los logs en tiempo real en la consola
   docker-compose up
   # levanta el stack en segundo plano
